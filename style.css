@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Ancizar Sans", sans-serif;
+}
+
+
+
+header {
+    display: flex;
+    gap: 20px;
+    padding: 23px;
+    background-color: #1F2937;
+}
+
+input {
+    float: left;
+}
+h2 {
+    color: #fff;
+}
+
+.color,
+.color-hex {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+}
+
+.color-hex {
+    height: fit-content;
+}
+
+main {
+
+    div {
+        height: calc(100vh - 124px);
+    }
+
+    .first {
+        background-color: #894783;
+    }
+
+    .second {
+        background-color: rgb(44, 44, 237)
+    }
+
+    .third {
+        background-color: rgb(238, 70, 241)
+    }
+
+    .fourth {
+        background-color: rgb(190, 204, 78)
+    }
+
+    .fifth {
+        background-color: rgb(34, 67, 28)
+    }
+
+    span {
+        color: #D5D4D8;
+        padding: 15px 0px;
+        white-space: nowrap;
+        background-color: #1F2937;
+    }
+}
+
+.special-color-element {
+    background-color: #00ffff;
+}
