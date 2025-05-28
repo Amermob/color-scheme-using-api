@@ -35,3 +35,7 @@ document.querySelector("#color-radio").addEventListener("change", (e) => {
     color;
   document.querySelector(".special-color-text").textContent = color;
 });
+
+document.querySelector(".btn").addEventListener("click", () => {
+  window.location.reload();
+});
