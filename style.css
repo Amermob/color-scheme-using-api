@@ -12,13 +12,23 @@ body {
 
 header {
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     gap: 20px;
-    padding: 23px;
+    padding: 20px;
     background-color: #1F2937;
 }
 
-input {
-    float: left;
+button {
+    background-color: #3D4B60;
+    padding: 10px 15px;
+    color: #fff;
+    border: none;
+    border-radius: 4.6px;
+    -webkit-border-radius: 4.6px;
+    -moz-border-radius: 4.6px;
+    -ms-border-radius: 4.6px;
+    -o-border-radius: 4.6px;
 }
 h2 {
     color: #fff;
@@ -39,26 +49,6 @@ main {
 
     div {
         height: calc(100vh - 124px);
-    }
-
-    .first {
-        background-color: #894783;
-    }
-
-    .second {
-        background-color: rgb(44, 44, 237)
-    }
-
-    .third {
-        background-color: rgb(238, 70, 241)
-    }
-
-    .fourth {
-        background-color: rgb(190, 204, 78)
-    }
-
-    .fifth {
-        background-color: rgb(34, 67, 28)
     }
 
     span {
